@@ -1,0 +1,61 @@
+  .my-slider {
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    grid-gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+
+  .carousel-item {
+    z-index: 1;
+    height: 350px;
+    width: 300px;
+    background-image: linear-gradient(to left bottom, #00aa93, #00ac8c, #00ad83, #00ae7a, #00af6f, #00b166, #00b35d, #00b552, #00b948, #02bd3c, #0ec02c, #1bc414);
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .carousel-item:nth-child(2) {
+    background-image: linear-gradient(to right top, #ff7c9e, #ff7693, #ff6f88, #ff697b, #ff646f, #ff5f67, #ff5b5f, #ff5656, #ff504f, #ff4949, #ff4242, #ff3b3b);
+  }
+
+  .carousel-item:nth-child(3) {
+    background-image: linear-gradient(to right top, #fb99ff, #fb93ff, #fb8cff, #fa85ff, #fa7eff, #fa78ff, #f971ff, #f96aff, #f962ff, #f85aff, #f852ff, #f748ff);
+  }
+
+  .image {
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+  }
+
+  .card {
+    height: 300px;
+    width: 80%;
+    overflow: visible;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    color: #000;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(18.0px);
+    -webkit-backdrop-filter: blur(18.0px);
+    border-radius: 9px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .card p {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .card h1 {
+    padding: 10px
+  }

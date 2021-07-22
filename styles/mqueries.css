@@ -1,0 +1,80 @@
+@media only screen and (max-width: 600px) {
+  #container {
+    height: 100vh;
+    width: 100%;
+    margin: 5% auto;
+    position: relative;
+    box-shadow: 4px 10px 20px rgba(55, 52, 73, 0.4);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(15.5px);
+    -webkit-backdrop-filter: blur(15.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  #background {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+    background: #FF7A6C;
+    -webkit-clip-path: polygon(83% 90%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(52% 0, 100% 0, 100% 100%, 0% 100%);
+    z-index: -1;
+    transition: all 0.8s ease;
+  }
+  
+  /* navigation */
+  nav {
+    display: block;
+    float: right;
+    margin: 1em;
+    margin-top: 2.4em;
+    font-family: "Open Sans", sans-serif;
+    font-size: 11px;
+  }
+  
+  .titles {
+    margin-top: -10%;
+  }
+  
+  .alta {
+    height: 370px;
+    position: relative;
+    top: -10%;
+    right: auto;
+    z-index: -1;
+  }
+  
+  .navbar a {
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #373449;
+  }
+  
+  .navbar a:hover {
+    background: #FFDC7B;
+    padding: 10px;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+  }
+  
+  .navbar a:last-child {
+    background: #373449;
+    color: #FFDC7B;
+    padding: 10px;
+    border-radius: 25px;
+  }
+  
+  .navbar a:last-child:hover {
+    color: #373449;
+    background: #FFDC7B;
+    transition: all 0.5s ease;
+  }
+}
